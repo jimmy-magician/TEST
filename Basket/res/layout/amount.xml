@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<TextView  android:id="@+id/amount"
+	    android:layout_width="fill_parent"
+	    android:layout_height="170dp"
+	    android:background="#00ff00"
+	    android:text="Amount   9999.99" 
+	    />
+	
+	<Button android:id="@+id/next"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:text="下一页"/>
+		
+		<Button android:id="@+id/add_ItemsDate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="70dp"
+	    android:text="Add ItemsDate"/>
+			
+		<Button android:id="@+id/add_miscellaneousDate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="70dp"
+	    android:layout_toRightOf="@+id/add_ItemsDate"
+	    android:text="Add miscellaneousDate"/>
+				
+		<Button android:id="@+id/add_discountItemDate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="120dp"
+	    android:text="add discountItemDate"/>
+		
+		<Button android:id="@+id/add_discountTransationDate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="120dp"
+	    android:layout_toRightOf="@+id/add_discountItemDate"
+	    android:text="add disTransationDate"/>
+	
+	<android.support.v4.view.ViewPager 
+        android:id="@+id/viewPager" 
+        android:layout_below="@+id/amount"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_gravity="center" 
+        android:layout_weight="1.0" 
+        android:background="#000000" 
+        android:flipInterval="30" 
+        android:persistentDrawingCache="animation" />     
+	
+	<include  layout="@layout/basket"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/flipperPoint"
+	    />
+    
+		<RelativeLayout android:id="@+id/flipperPoint"
+		    android:layout_width="fill_parent"
+		    android:clickable="true"
+			android:background="@drawable/flipper_bg_img" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true">
+			<RelativeLayout android:layout_width="19dp"
+				android:layout_height="8dp" 
+				android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true">
+				<Button android:id="@+id/flipperPoint1" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:background="@drawable/flipper_btn1" />
+				<Button android:id="@+id/flipperPoint2" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:background="@drawable/flipper_btn2"
+					android:layout_alignParentRight="true" />
+			</RelativeLayout>
+		</RelativeLayout> 
+</RelativeLayout>

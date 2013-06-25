@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:background="@drawable/basket_item_bg">
+    
+    <TextView android:text="" 
+               android:id="@+id/tv_basketItem_blank"
+              android:layout_width="16.5dp" 
+			  android:layout_height="wrap_content"
+			  android:layout_centerVertical="true"/>
+			  
+    <TextView android:text="Off" 
+              android:id="@+id/tv_basketItem_off"
+              style="@style/Helvetica_grey1_bold_15"
+			  android:layout_width="50dp" 
+			  android:layout_height="wrap_content"
+			  android:layout_toRightOf="@+id/tv_basketItem_blank"
+			  android:visibility="gone"
+			  android:layout_centerVertical="true"/>
+			  
+     <ImageView android:layout_width="20dp"
+     	android:id="@+id/iv_basketItem_green"
+		android:layout_height="20.5dp" 
+		android:src="@drawable/item_icon_green"
+		android:layout_marginLeft="5dp" 
+		android:layout_toRightOf="@+id/tv_basketItem_off"
+		android:layout_centerVertical="true" />
+		
+     <TextView android:text="1" 
+     		style="@style/Helvetica_white_bold_12"
+     		android:id="@+id/tv_basketItem_count"
+			android:layout_width="20dp" 
+			android:layout_height="20dp"
+			android:gravity="center" 
+			android:layout_marginLeft="5dp"
+			android:layout_toRightOf="@+id/tv_basketItem_off"
+			android:layout_centerVertical="true" />
+    
+     <TextView android:text="Red Hat" 
+               android:id="@+id/tv_basketItem_name"
+               style="@style/Helvetica_grey1_bold_15"
+			   android:layout_width="wrap_content" 
+			   android:layout_height="wrap_content"
+			   android:layout_marginLeft="5dp" 
+			   android:layout_toRightOf="@+id/iv_basketItem_green"
+			   android:layout_centerVertical="true"/>
+			   
+		<TextView   android:text="$5.00" 
+				    android:id="@+id/tv_basketItem_price"
+				    style="@style/Helvetica_Green1_bold_17"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_marginRight="16.5dp" 
+					android:layout_centerVertical="true"
+					android:gravity="right" 
+					android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

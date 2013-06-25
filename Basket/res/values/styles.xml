@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="Helvetica_white_bold_12">
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowRadius">0</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:shadowColor">#ffffff</item>
+	</style>
+
+
+	<style name="Helvetica_Neue_28">
+		<item name="android:textSize">28sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_22_white">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:textSize">22sp</item>
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:shadowRadius">1.5</item>
+		<item name="android:gravity">center</item>
+		<item name="android:shadowDy">-2</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_22">
+		<item name="android:textSize">22sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_22_left">
+		<item name="android:textSize">22sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_21">
+		<item name="android:textSize">21sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_21_left">
+		<item name="android:textSize">21sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_20">
+		<item name="android:textSize">20sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_20_left">
+		<item name="android:textSize">20sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_19">
+		<item name="android:textSize">19sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_19_left">
+		<item name="android:textSize">19sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_18">
+		<item name="android:textSize">18sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_18_left">
+		<item name="android:textSize">18sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_17">
+		<item name="android:textSize">17sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_17_left">
+		<item name="android:textSize">17sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_16">
+		<item name="android:textSize">16sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_16_left">
+		<item name="android:textSize">16sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_15">
+		<item name="android:textSize">15sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_15_left">
+		<item name="android:textSize">15sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_14">
+		<item name="android:textSize">14sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_14_left">
+		<item name="android:textSize">14sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_13">
+		<item name="android:textSize">13sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_13_left">
+		<item name="android:textSize">13sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_12">
+		<item name="android:textSize">12sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_12_left">
+		<item name="android:textSize">12sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_11">
+		<item name="android:textSize">11sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_11_left">
+		<item name="android:textSize">11sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_10">
+		<item name="android:textSize">10sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="Helvetica_Neue_10_left">
+		<item name="android:textSize">10sp</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#6b737a</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<!-- -->
+
+	<style
+		name="Theme_Dialog_Translucent"
+		parent="android:Theme.Dialog">
+		<item name="android:windowBackground">@color/Dialog_transparent</item>
+	</style>
+
+	<style name="Menu_edit_text_style">
+		<item name="android:textColorHint">@color/Edit_Text_hint_color</item>
+		<item name="android:textColor">@color/Blue_text_color</item>
+	</style>
+
+	<style name="PopupTV_white_13">
+		<item name="android:textSize">13dp</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:shadowColor">#888888</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+
+	<!-- for keyboard -->
+
+	<style name="CustomKeyboardButton">
+		<item name="android:textSize">27sp</item>
+		<item name="android:shadowRadius">4</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+	<!-- for new UI start -->
+	<style name="Helvetica_grey1_bold_15">
+		<item name="android:textSize">15sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#7a7a7a</item>
+		<item name="android:shadowColor">#ffffff</item>
+	</style>
+	<style name="Helvetica_grey2_bold_14">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#ababab</item>
+		<item name="android:shadowColor">#ffffff</item>
+	</style>
+	<style name="Helvetica_grey2_normal_12">
+		<item name="android:textSize">12sp</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:textColor">#ababab</item>
+		<item name="android:shadowColor">#ffffff</item>
+	</style>
+	<style name="Helvetica_Green1_bold_17">
+		<item name="android:textSize">17sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowRadius">1</item>
+		<item name="android:textColor">#306f28</item>
+		<item name="android:shadowColor">#ffffff</item>
+	</style>
+	<!-- for new UI end -->
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+    
+	<SlidingDrawer android:id="@+id/sd_basket_slidingDrawer"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="310dp"
+		android:allowSingleTap="false"
+		android:handle="@+id/iv_basket_basketHandle"
+		android:content="@+id/rl_basket_basketContent">
+		
+		<ImageView android:id="@+id/iv_basket_basketHandle"
+			android:layout_width="fill_parent"
+			android:layout_height="26dp"
+			android:background="@drawable/basket_down"/>
+		
+		<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="284dp" 
+				android:layout_marginTop="26dp" 
+				android:id="@+id/rl_basket_basketContent"
+				android:background="#ffffff">
+				
+				<ListView android:id="@+id/lv_basket_list"
+				    android:layout_height="230dp"
+				    android:cacheColorHint="#00000000"
+				    android:layout_width="fill_parent"/>
+
+				<RelativeLayout android:layout_width="fill_parent"
+					android:layout_height="64.5dp" 
+					android:clickable="true"
+					android:layout_alignParentBottom="true"
+					android:background="@drawable/basket_bottom">
+					<ImageView android:layout_width="39dp"
+					    android:id="@+id/iv_basket_logo"
+						android:layout_height="39dp" 
+						android:src="@drawable/basket_logo"
+						android:layout_marginLeft="15dp" 
+						android:layout_marginTop="16.5dp" />
+					<TextView android:text="HatBox Design Studio" 
+						android:id="@+id/tv_basket_business"
+						style="@style/Helvetica_grey2_bold_14"
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="65dp" 
+						android:layout_marginTop="21dp" />
+					<TextView android:text="402-216-8000" 
+						android:id="@+id/tv_basket_phone"
+						style="@style/Helvetica_grey2_normal_12"
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="65dp" 
+						android:layout_marginTop="40dp" />
+			</RelativeLayout>
+		</RelativeLayout>
+	</SlidingDrawer>	
+</RelativeLayout>
